@@ -1,7 +1,7 @@
 import os, time, subprocess
 
-target_miner = 'start_miner.bat' #miner start file, works with .bat extension
-time_woke = 1.5 #time that this python script will run the miner, in hours
+TARGET_MINER = 'start_miner.bat' #miner start file, works with .bat extension
+TIME_WOKE = 1.5 #time that this python script will run the miner, in hours
 counter = 0 
 
 def runMiner(miner):
